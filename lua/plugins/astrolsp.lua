@@ -46,6 +46,13 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      ltex = {
+        settings = {
+          ltex = {
+            language = "es"
+          }
+        }
+      }
     },
     -- customize how language servers are attached
     handlers = {
